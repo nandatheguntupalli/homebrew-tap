@@ -1,5 +1,5 @@
 class Prs < Formula
-  desc "Superhuman for pull requests: a keyboard-first TUI for reviewing and merging PRs"
+  desc "Keyboard-first terminal UI for reviewing and merging pull requests"
   homepage "https://github.com/nandatheguntupalli/prs"
   version "0.11.0"
   license "MIT"
