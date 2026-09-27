@@ -1,30 +1,30 @@
 class Prs < Formula
   desc "Superhuman for pull requests: a keyboard-first TUI for reviewing and merging PRs"
   homepage "https://github.com/nandatheguntupalli/prs"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   depends_on "gh"
 
   on_macos do
     on_arm do
-      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.4.0/prs-darwin-arm64.tar.gz"
-      sha256 "056e5f11ca25266fecac43adcdefc10097913681bff0adcf6d7b921959c3643b"
+      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.5.0/prs-darwin-arm64.tar.gz"
+      sha256 "80155af356d920fc1de5714b80ac66dcbb77bde46dbb65d398a646a2b571efd1"
     end
     on_intel do
-      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.4.0/prs-darwin-x64.tar.gz"
-      sha256 "d459f446dbb393efb0be04675a207d0f93d5fc99608aa578bd3fcd3b0e374da1"
+      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.5.0/prs-darwin-x64.tar.gz"
+      sha256 "13260747a53ad69bf0a6853e5bd68f17558684bf522d7245b213631956369322"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.4.0/prs-linux-arm64.tar.gz"
-      sha256 "47e240214142de24ac4cc3b369748848b999395bf2e893668373cc5a662ca423"
+      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.5.0/prs-linux-arm64.tar.gz"
+      sha256 "f7d230371c3a227a986714a626c4215dea83b42528b6d69d205d2a614321652a"
     end
     on_intel do
-      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.4.0/prs-linux-x64.tar.gz"
-      sha256 "81597820ec4fa814e88e0c16209d8dd68ae6baed4c8dcf429e8f4002de3244d0"
+      url "https://github.com/nandatheguntupalli/prs/releases/download/v0.5.0/prs-linux-x64.tar.gz"
+      sha256 "f6ffb4523b43c32e2e0cbab86ad9736a9200848e8e8fd340e5e0c08b802daec3"
     end
   end
 
